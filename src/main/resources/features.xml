@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+
+    <feature name="cxf-blueprint-camel-example" version="0.0.1" resolver="(obr)">
+
+        <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/${jackson.version}</bundle>
+        <bundle>mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-xml-provider/${jackson.version}</bundle>
+        <bundle>mvn:org.apache.httpcomponents/httpcore-osgi/4.4.1</bundle>
+        <bundle>mvn:org.apache.httpcomponents/httpclient-osgi/4.4.1</bundle>
+
+        <bundle>mvn:com.capgemini.example/cxf-blueprint-camel-example/1.0.0</bundle>
+    </feature>
+</features>
